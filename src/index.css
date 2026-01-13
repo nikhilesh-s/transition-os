@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-[#f5e8eb] via-[#e7dfe0] to-[#d8cdd1];
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(231, 223, 224, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .glass-strong {
+    background: rgba(231, 223, 224, 0.95);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, #9D5060 0%, #376380 100%);
+  }
+
+  .gradient-secondary {
+    background: linear-gradient(135deg, #376380 0%, #9D5060 100%);
+  }
+
+  .gradient-purple {
+    background: linear-gradient(135deg, #2D1F30 0%, #9D5060 100%);
+  }
+
+  .gradient-pink {
+    background: linear-gradient(135deg, #9D5060 0%, #d67688 100%);
+  }
+
+  .gradient-orange {
+    background: linear-gradient(135deg, #c97d8a 0%, #9D5060 100%);
+  }
+
+  .gradient-bg {
+    background: linear-gradient(180deg, #f5e8eb 0%, #e7dfe0 50%, #d8cdd1 100%);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 4s ease-in-out infinite;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
