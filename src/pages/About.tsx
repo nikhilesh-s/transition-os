@@ -35,13 +35,13 @@ export default function About() {
             <div>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">Why We Built This</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                The transition into college-level coursework can feel scattered — multiple
+                The transition into college-level coursework can feel scattered ; multiple
                 schedules, unclear requirements, new levels of independence. We built Transition OS
                 after experiencing these challenges firsthand in Middle College and Dual Enrollment programs.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 We wanted to create something simple, accessible, and immediately useful. No
-                complicated apps, no expensive subscriptions — just clean, effective tools that
+                complicated apps, no expensive subscriptions ; just clean, effective tools that
                 anyone can use.
               </p>
             </div>

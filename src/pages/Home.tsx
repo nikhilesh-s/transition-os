@@ -113,7 +113,7 @@ export default function Home() {
               What is Transition OS?
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Transition OS is a collection of clean, easy-to-use templates and guides designed by Nikhilesh Suravarjjala and Zayan Ahmad to help students manage their classes, schedules, deadlines, projects, budgeting, habits, and academic planning — all in one place.
+              Transition OS is a collection of clean, easy-to-use templates and guides designed by Nikhilesh Suravarjjala and Zayan Ahmad to help students manage their classes, schedules, deadlines, projects, budgeting, habits, and academic planning ; all in one place.
             </p>
           </motion.div>
         </div>
@@ -154,7 +154,7 @@ export default function Home() {
               Transition OS was built after experiencing firsthand how confusing it can be to manage multiple schedules, expectations, and systems during early college experiences. When you're navigating different platforms, conflicting calendars, and new levels of independence, it's easy to feel scattered.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
-              The goal is simple: provide a student-owned system that reduces friction and mental load. No complicated apps, no expensive subscriptions — just clean, practical tools that help you stay on track without adding more stress to your life.
+              The goal is simple: provide a student-owned system that reduces friction and mental load. No complicated apps, no expensive subscriptions ; just clean, practical tools that help you stay on track without adding more stress to your life.
             </p>
           </motion.div>
         </div>

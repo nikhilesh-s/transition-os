@@ -49,7 +49,7 @@ export default function FAQ() {
     {
       question: 'Can I customize the templates?',
       answer:
-        'Definitely! Once you copy a template to your Drive, it\'s yours to customize however you want. Change colors, add columns, remove sections — make it work for you.',
+        'Definitely! Once you copy a template to your Drive, it\'s yours to customize however you want. Change colors, add columns, remove sections ; make it work for you.',
     },
     {
       question: 'Do I need a Google account?',

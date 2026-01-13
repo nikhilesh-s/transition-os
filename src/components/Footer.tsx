@@ -81,7 +81,7 @@ export default function Footer() {
 
           <div className="mt-8 pt-8 border-t border-gray-200/50">
             <p className="text-sm text-gray-600 text-center">
-              © 2024 Transition OS. Built for students, by students.
+              © 2026 Transition OS. Built for students, by students.
             </p>
           </div>
         </div>

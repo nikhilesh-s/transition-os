@@ -42,7 +42,7 @@ export default function Feedback() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Your feedback is essential to making Transition OS better for everyone. Whether
                 you have suggestions for new templates, found something confusing, or just want to share how
-                these tools have helped you — we want to know.
+                these tools have helped you ; we want to know.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 This form takes less than 2 minutes and helps us prioritize what to

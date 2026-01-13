@@ -217,9 +217,9 @@ export default function GPA() {
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {[
-            { title: 'Your High School GPA', value: '—' },
-            { title: 'Your College / Dual Enrollment GPA', value: '—' },
-            { title: 'Your UC/CSU Transferable GPA', value: '—' },
+            { title: 'Your High School GPA', value: ';' },
+            { title: 'Your College / Dual Enrollment GPA', value: ';' },
+            { title: 'Your UC/CSU Transferable GPA', value: ';' },
           ].map((gpa, index) => (
             <motion.div
               key={index}
